@@ -1,0 +1,46 @@
+Ball Breaker ver 1.0
+
+How to install:
+Prequisities: Jre should be installed
+
+1) Copy the Game folder into desired location.
+2) In windows, open DOS command shell.
+3) traverse to the Game folder.
+4) type "java Game" to play
+
+How to play:
+
+1) Click on Start game to start.
+2) Press left arrow key to move left and right arrow key to move right.
+3) If lives count hits 0, game is over and if player manages to destroy all bricks, player wins.
+4) To close, click the close on top right of window.
+
+
+Future enhancement possibilites:
+
+1) Improved GUI with menus and heads up display.
+2) Level system.
+3) Power up system.
+4) Difficulty system.
+5) Background music(BGM).
+6) Multiplayer.
+
+
+Code reference:
+
+Sound code reference:
+http://www.ntu.edu.sg/home/ehchua/programming/java/J8c_PlayingSound.html
+Java online documentation.
+
+
+Bugs:
+
+There is a collision bug when the ball is near the sides of the platform. Ball rebounds without touching the platform. Seldom happens.
+
+ver 1.1- Modification Notes
+
+*Pause feature added, Press "P" during gameplay to pause/resume the game.
+*More bricks added, size of the brick has been reduced.
+*platform movement speed increased for ease of play.
+*Scoring system added, now player earns 10 points on breaking each brick.
+*If a life is lost, game pauses with a dialog box which says "Press Ok to continue". Pressing it, the game resumes.
